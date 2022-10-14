@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="Carros.js" defer></script>
+   <link rel="stylesheet" href="styles.css">
+   <title>Carros Alemães</title>
+</head>
+<style>
+   A {
+      text-decoration: none;
+   }
+</style> <!-- remove sublinhado dos links de toda a pagina -->
+
+<body>
+   <header class="header">
+      <h1><a class="h1-header" href="http://127.0.0.1:5500/index.html">Veiculos Alemães Mais Procurados para Preparação</a></h1>
+   </header>
+
+   <main id="main" class="main">
+      <div class="div-form">
+         <form action="form">
+            <input class="input" type="text" name="Buscar" id="input" placeholder="Pesquise aqui seu veiculo"
+               autocomplete="off">
+            <button onclick="search(event)" class="button" type="submit">Buscar</button>
+         </form>
+      </div>
+      <div class="container" id="container">
+      </div>
+   </main>
+
+   <footer class="footer">
+      <hr />
+      <div>
+         <p>Developed by: Renan Lopes Maruffa</p>
+         <ul>
+            <li><a href="https://github.com/Renanek9/" target="_blank">GitHub</a></li>
+            <li><a href="https:/instagram.com/renan_maruffa/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/rmaruffa/" target="_blank">Facebook</a></li>
+         </ul>
+      </div>
+   </footer>
