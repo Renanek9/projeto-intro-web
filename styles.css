@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+}
+
+body{
+  background-image: url(./Media/Nuerburgring_Nordschleife_1600x1066.jpg);
+  background-size: cover;
+}
+
+a{
+  color: white;
+}
+
+.h1-header {
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7259278711484594) 100%);
+  color: white;
+  height: 5vh;
+  display: grid;
+  font-size: 30px;
+  align-content: center;
+  text-align: center;
+  padding: 2%;
+}
+
+.div-form{
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  justify-content: center;
+  column-gap: 1vw;
+}
+
+.input, .button{
+  opacity: .65;
+  border-radius: 15px;
+  border: 1px solid red;
+}
+
+.input{
+  width: 30vw;
+  text-align: center;
+  height: 3vh;  
+}
+
+.button{
+  background-color: lightgray;
+  width: 8vw;
+  height: 3vh;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section{
+  margin: 20px auto;  
+}
+
+#section1, #section2, #section3, #section4{
+  background-color: rgb(0 0 0 / 70%);
+  color: white;
+  gap: 16px; 
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: 15px;
+  width: 50vw;
+  border-radius: 40px;
+  padding: 60px 60px;
+  background-size: cover;
+  align-items: center;
+  
+  /* grid-column: 2/3;
+  grid-row: 1/2; */
+  /* align-items: center;
+  justify-items: center;
+  align-content: center; */
+}
+
+#section1:hover{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Media/RS3gif.gif);
+  background-position: center;
+  transition: .5s ease;
+}
+
+#section2:hover{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Media/911gif.gif);
+  background-position: center;
+  transition: .5s ease;
+}
+
+#section3:hover{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Media/GLIgif.gif);
+  background-position: center;
+  transition: .5s ease;
+}
+
+#section4:hover{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Media/M5gif.gif);
+  background-position: center;
+  transition: .5s ease;
+}
+
+img{
+  height: auto;
+  width: 300px;
+  border-radius: 10%;
+  padding: 1px;
+  display: block;
+}
+
+.footer{
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7847514005602241) 100%);
+  opacity: 1;
+  color: white;
+  height: 15vh;
+  display: grid;
+  padding: 2%;
+  text-align: center;
+}
+
